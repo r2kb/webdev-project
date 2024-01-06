@@ -1,0 +1,51 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #d84c57;
+}
+
+.header-logo img{
+    height: 40px;
+    width: 40px;
+}
+.header-logo{
+    display: flex;
+    align-items: center;
+    vertical-align: top;
+    margin-left: 50px;
+}
+
+.header-logo:hover{
+    cursor: pointer;
+    opacity: .8;
+    transition: opacity .3s;
+}
+
+.valopedia{
+    margin-left: 12px;
+    font-size: 22px;
+    color: white;
+    font-weight: 700;
+    font-family: roboto, arial;
+}
+
+.navbar{
+    margin-right: 70px;
+    display: flex;
+    flex-shrink: 0;
+    max-width: 300px;
+}
+.navbar a{
+    font-family: roboto, arial;
+    font-weight: 800;
+    padding: 12px;  
+    text-decoration: none;
+    color: white
+}
+
+.navbar a:hover{
+    color: black;
+    
+    transition: color, opacity .3s;
+}
