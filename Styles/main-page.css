@@ -6,6 +6,7 @@
     margin-right: 220px;
     margin-bottom: 500px;
     padding: 50px;
+    align-items: center;
 }
 
 .valorant-logo{
@@ -24,7 +25,7 @@
     font-weight: 800;
     display: flex;
     justify-content: center;
-    font-size: 24px;
+    font-size: 150%;
     
 }
 
@@ -32,9 +33,30 @@
    line-height: 24px;
    padding: 50px;
    font-family: roboto, arial;
+   text-align: center;
 }
 
 .intro-content{
-    display: flex;
-    justify-content: center;
+    display:inline-block;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.p-valorant{
+    color: #d84c57;
+    font-weight: 800;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.riot-games{
+    color: #d84c57;
+    font-weight: 800;
+}
+.intro-description{
+    display: inline-block;
+    text-align: center;
+    font-style: roboto;
+}
+.spacing{
+    display: block;
 }
