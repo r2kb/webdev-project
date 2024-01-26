@@ -53,15 +53,18 @@
     margin-left: 4px;
     margin-right: 4px;
 }
+
 .riot-games{
     color: #d84c57;
     font-weight: 800;
 }
+
 .intro-description{
     display: inline-block;
     text-align: center;
     font-style: roboto;
 }
+
 .spacing{
     display: block;
 }
@@ -77,6 +80,7 @@
     margin-left: 220px;
     margin-right: 220px;
 }
+
 .contents-header{
     background-color: #d84c57;
     width: 100%;
@@ -89,7 +93,7 @@
     padding: 20px 10px;
 }
 
-.contents {
+.contents{
     padding: 20px 15px;
     border-radius: 5px;
     background-color: black;
@@ -114,11 +118,10 @@
     display: inline-block;
     text-align: center;
 }
+
 .content-series img{
     display: block;
 }
-
-
 
 .main-contents-agents{
    padding: 40px 20px;
@@ -132,16 +135,13 @@
    margin-right: 220px;
    justify-content: space-evenly; 
    flex-shrink: 0;
-   flex-grow: 0;
-  
-    
-}
-.main-contents-agents li:hover{
-    text-decoration: underline;
-    color: #d84c57;
-  
+   flex-grow: 0;    
 }
 
+.main-contents-agents li:hover{
+    text-decoration: underline;
+    color: #d84c57;  
+}
 
 .agents-list{
     display: flex;
@@ -173,3 +173,5 @@ li{
     flex-shrink: 0;
     flex-wrap: nowrap;
 }
+
+
